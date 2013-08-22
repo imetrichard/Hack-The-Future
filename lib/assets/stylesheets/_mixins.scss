@@ -1,0 +1,10 @@
+// Create easy gradients.
+@mixin gradient($start, $end) {
+  background-color: mix($start, $end);
+  @include background-image(linear-gradient($start, $end));
+}
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  filter: alpha(opacity=$opacity * 100);
+}

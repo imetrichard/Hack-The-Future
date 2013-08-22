@@ -19,3 +19,4 @@ doc/
 
 #etc
 .idea/*
+.sass-cache/
