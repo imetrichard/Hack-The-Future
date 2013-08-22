@@ -35,3 +35,20 @@ end
 get '/' do
   erb :index
 end
+
+# Setting up pages routes
+get '/mentors' do
+  erb :mentors
+end
+
+get '/sponsors' do
+  erb :sponsors
+end
+
+get '/media' do
+  erb :media
+end
+
+get '/terms' do
+  erb :terms
+end
