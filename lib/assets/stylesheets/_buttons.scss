@@ -2,4 +2,12 @@ button {
   width: 250px;
   height: 50px;
   font-size: 21px;
+
+  &.signup {
+    width: 140px;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+    float: right;
+  }
 }

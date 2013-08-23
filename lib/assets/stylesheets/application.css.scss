@@ -9,7 +9,15 @@
 @import '_who.scss';
 @import '_help.scss';
 @import '_buttons.scss';
+
 body {
   margin: 0;
   color: white;
+}
+
+.content {
+  max-width: 1024px;
+  width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
 }
