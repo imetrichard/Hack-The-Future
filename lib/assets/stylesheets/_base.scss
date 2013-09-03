@@ -69,23 +69,10 @@ body {
   margin: 0 5%;
 }
 
-/* ===================
-    ALL: Orange Theme
-   =================== */
-
-.header-container {
-  border-bottom: 20px solid #e44d26;
-}
-
-.footer-container,
-.main aside {
-  border-top: 20px solid #e44d26;
-}
-
 .header-container,
 .footer-container,
 .main aside {
-  background: #f16529;
+  background: #2d2d2d;
 }
 
 .title {
@@ -111,7 +98,7 @@ nav a {
   font-weight: bold;
 
   color: white;
-  background: #e44d26;
+  background: #2d2d2d;
 }
 
 nav a:hover,
@@ -152,24 +139,6 @@ nav a:hover {
 .ie7 .title {
   padding-top: 20px;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -395,3 +364,61 @@ h3 {
   page-break-after: avoid;
 }
   }
+
+
+// Custom CSS
+
+body {
+  margin: 0;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #2d2d2d;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Asap', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 46px;
+}
+
+.content {
+  max-width: 1024px;
+  width: 1024px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: rgba(255,255,255,0.7);
+  padding: 20px;
+  margin-top: 40px;
+
+  h1 {
+    line-height: 42px;
+    margin-top: 0;
+  }
+}
+
+input {
+  height: 45px;
+  width: 350px;
+  font-size: 26px;
+  padding-left: 15px;
+  border: 0;
+  background-color: #2d2d2d;
+  box-shadow: 0;
+  color: $green;
+
+  &:focus {
+    -webkit-focus-ring-color: auto 0px;
+    outline-width: 0;
+  }
+
+  &:selection {
+    border: 0;
+    background: #2d2d2d;
+  }
+}

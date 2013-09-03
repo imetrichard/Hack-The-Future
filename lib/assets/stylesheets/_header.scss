@@ -1,12 +1,13 @@
 header, footer {
   h1 {
     display: inline-block;
+    color: $green;
   }
 
   nav {
     width: auto;
-    margin-top: 20px;
-    min-width: 540px;
+    margin-top: 27px;
+    min-width: 545px;
 
     ul {
       li {
@@ -22,4 +23,35 @@ header, footer {
       }
     }
   }
+}
+
+.header-container {
+  position: fixed;
+  width: 100%;
+  box-shadow: none;
+  z-index: 99;
+  top: 0;
+}
+
+.footer-container {
+  position: fixed;
+  width: 100%;
+  box-shadow: none;
+  z-index: 99;
+  bottom: 0;
+
+  footer {
+    padding: 0;
+
+    h1 {
+      display: inline-block;
+      float: left;
+      font-size: 21px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+  }
+
 }

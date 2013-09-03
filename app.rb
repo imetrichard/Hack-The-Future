@@ -52,3 +52,7 @@ end
 get '/terms' do
   erb :terms
 end
+
+get '/index2' do
+  erb :index2
+end

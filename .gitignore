@@ -20,3 +20,4 @@ doc/
 #etc
 .idea/*
 .sass-cache/
+.DS_Store

@@ -1,6 +1,54 @@
-#next {
+#next, #next2 {
+  @include gradient(white, $green);
+  @include grid;
   min-height: 768px;
   padding: 20px;
-  background-color: $pgreen;
-  border-bottom: 30px solid $green;
+  border-bottom: 30px solid #47b39a;;
+
+  .event {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border: 20px solid #a9a9a9;
+    margin-bottom: 30px;
+    min-height: 500px;
+  }
+
+  .content {
+    background-color: rgba(255,255,255,0.0);
+  }
+
+  h1, h2 {
+    color: $green;
+  }
+
+  fieldset {
+    h2 {
+      display: inline-block;
+    }
+  }
+}
+
+#next2 {
+  @include gradient(white, gray);
+  @include grid;
+
+  .event {
+    border: 0;
+    padding: 40px;
+  }
+
+  .content {
+    width: 90%;
+    max-width: 90%;
+  }
+}
+
+.blink {
+  border-right: 1px solid $green;
+  position: relative;
+  left: 5px;
+  top: 5px;
+  display: inline-block;
+  width: 5px;
+  height: 25px;
 }
