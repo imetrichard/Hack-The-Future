@@ -1,9 +1,10 @@
 #next, #next2 {
   @include gradient(white, $green);
   @include grid;
-  min-height: 768px;
+  min-height: 861px;
+  height: 861px;
   padding: 20px;
-  border-bottom: 30px solid #47b39a;;
+  border-bottom: 68px solid #47b39a;;
 
   .event {
     background-color: #2d2d2d;

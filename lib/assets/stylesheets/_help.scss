@@ -1,8 +1,9 @@
 #help, #sponsor {
-  min-height: 768px;
+  min-height: 861px;
+  height: 861px;
   background-color: $porange;
   padding: 20px;
-  border-bottom: 30px solid $orange;
+  border-bottom: 68px solid $orange;
   @include grid;
 
   ul.sponsors {

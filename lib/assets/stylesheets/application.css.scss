@@ -10,13 +10,12 @@
 @import '_help.scss';
 @import '_buttons.scss';
 @import '_modals.scss';
+@import '_media.scss';
+@import '_terms.scss';
 
 // Vendor CSS
 @import url(http://fonts.googleapis.com/css?family=Asap:400,700|Open+Sans:400,600,700);
 
-.main-container {
-  margin-top: 71px;
-}
 
 //.overlay {
 //  display: block;
