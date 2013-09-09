@@ -1,8 +1,9 @@
 #media, #coverage {
   min-height: 861px;
   height: 861px;
-  background-color: $pred;
+  background-color: gray;
   padding: 20px;
+  padding-top: 100px;
   border-bottom: 68px solid $red;
   @include grid;
 }

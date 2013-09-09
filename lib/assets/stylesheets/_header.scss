@@ -1,24 +1,58 @@
 header, footer {
   h1 {
     display: inline-block;
-    color: $green;
+    color: $pgreen;
+    text-shadow: 1px 1px 1px #464646;
   }
 
   nav {
     width: auto;
     margin-top: 27px;
-    min-width: 545px;
+    width: 52%;
 
     ul {
       li {
-        margin-right: 20px;
+        display: inline-block;
+        float: left;
+        margin-right: 5px;
+        width: 100px;
 
         a {
           font-weight: bold;
           text-decoration: none;
-          font-size: 14px;
+          font-size: 16px;
           width: auto;
-          padding: 5px 2%;
+          padding: 5px 15px;
+          border-radius: 6px;
+          text-shadow: 1px 1px 1px #464646;
+
+          &:hover {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+header {
+  nav {
+    ul {
+      li {
+
+        a {
+          text-shadow: 1px 1px 1px #464646;
+          -webkit-transition: all 0.2s linear;
+          -moz-transition: all 0.2s linear;
+          -o-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+
+          &:hover {
+            background-color: $pgreen;
+            color: #2d2d2d;
+            text-decoration: none;
+            text-shadow: 0px 0px 0px #464646;
+          }
         }
       }
     }
@@ -51,8 +85,37 @@ header, footer {
       font-size: 21px;
     }
 
+    i {
+      font-size: 28px;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -o-transition: all 0.2s linear;
+      transition: all 0.2s linear;
+
+      &:hover {
+        color: $pgreen;
+      }
+    }
+
     nav {
       margin-top: 10px;
+      float: right;
+      width: auto;
+
+      ul {
+        li {
+          width: inherit;
+          a {
+            font-size: 12px;
+            font-weight: normal;
+            padding: 3px 10px;
+          }
+        }
+      }
+    }
+    .social {
+      float: left;
+      width: 300px;
     }
   }
 

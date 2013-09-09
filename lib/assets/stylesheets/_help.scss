@@ -1,10 +1,15 @@
-#help, #sponsor {
+#help, #sponsor-more, #sponsor-list {
   min-height: 861px;
   height: 861px;
   background-color: $porange;
   padding: 20px;
-  border-bottom: 68px solid $orange;
-  @include grid;
+
+  .content {
+    background-color: rgba(255, 120, 19, 0.0);
+    @include grid;
+    color: white;
+    text-shadow: 1px 1px 1px #838383;
+  }
 
   ul.sponsors {
     margin: 0;
@@ -22,6 +27,40 @@
       -webkit-box-shadow:0px 0px 8px 2px rgba(0,0,0,0.1);
       box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.1);
       padding: 20px;
+    }
+  }
+}
+
+
+#sponsor {
+  min-height: 861px;
+  height: 861px;
+  background-color: #2d2d2d;
+  border-bottom: 68px solid $porange;
+  @include grid;
+
+  header {
+    height: 861px;
+    background: url("/images/curcuit.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: contain;
+    margin-right: auto;
+    margin-left: auto;
+
+    h1 {
+      padding: 30px;
+      background-color: $porange;
+      color: #fff;
+      line-height: 42px;
+      width: 90%;
+      max-width: 600px;
+      text-shadow: 1px 1px 1px #464646;
+      left: 59%;
+      position: relative;
+      top: 22%;
+      @include grid;
     }
   }
 }

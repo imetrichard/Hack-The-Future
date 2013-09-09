@@ -55,7 +55,7 @@ perspective effects (not including the modals and the overlay).
   left: 0;
   z-index: 1000;
   opacity: 0;
-  background: $green;
+  background: #222;
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
   transition: all 0.3s;
@@ -68,8 +68,8 @@ perspective effects (not including the modals and the overlay).
 
 /* Content styles */
 .md-content {
-  color: #313231;
-  background: #e2e2e2;
+  color: $green;
+  background: #222;
   position: relative;
   border-radius: 3px;
   margin: 0 auto;
@@ -78,16 +78,15 @@ perspective effects (not including the modals and the overlay).
 .md-content h3 {
   margin: 0;
   padding: 0.4em;
-  text-align: center;
   font-size: 2.4em;
   font-weight: 300;
   opacity: 0.8;
-  background: rgba(0,0,0,0.1);
   border-radius: 3px 3px 0 0;
+  display: inline-block;
 }
 
 .md-content > div {
-  padding: 15px 40px 30px;
+  padding: 15px 20px 30px;
   margin: 0;
   font-weight: 300;
   font-size: 1.15em;
@@ -105,15 +104,20 @@ perspective effects (not including the modals and the overlay).
 
 .md-content > div ul li {
   padding: 5px 0;
+  text-align: left;
 }
 
 .md-content button {
-  display: block;
   margin: 0 auto;
-  font-size: 0.8em;
+  font-size: 1em;
+  width: 350px;
 }
 
-/* Effect 11: Super scaled */
+.md-close {
+  color: #d3d3d3;
+  font-size: 16px;
+}
+
 .md-effect-11 .md-content {
   -webkit-transform: scale(2);
   -moz-transform: scale(2);

@@ -1,0 +1,14 @@
+fieldset {
+  padding-bottom: 50px;
+
+  label {
+    display: inline-block;
+    width: 120px;
+  }
+
+  input {
+    background-color: #222;
+    border-bottom: 2px solid $green;
+    display: inline-block;
+  }
+}

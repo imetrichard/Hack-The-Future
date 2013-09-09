@@ -1,8 +1,8 @@
 #terms {
   min-height: 861px;
   height: 861px;
-  background-color: $pred;
+  background-color: #d3d3d3;
   padding: 20px;
-  border-bottom: 68px solid $red;
+  padding-top: 100px;
   @include grid;
 }

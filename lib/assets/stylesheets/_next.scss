@@ -1,13 +1,13 @@
-#next, #next2 {
-  @include gradient(white, $green);
-  @include grid;
+#next {
+  //@include gradient(white, $green);
+  //@include grid;
+  background-color: $pgreen;
   min-height: 861px;
   height: 861px;
   padding: 20px;
-  border-bottom: 68px solid #47b39a;;
 
   .event {
-    background-color: #2d2d2d;
+    background-color: #222;
     padding: 20px;
     border: 20px solid #a9a9a9;
     margin-bottom: 30px;
@@ -19,28 +19,13 @@
   }
 
   h1, h2 {
-    color: $green;
+    color: $pgreen;
   }
 
   fieldset {
     h2 {
       display: inline-block;
     }
-  }
-}
-
-#next2 {
-  @include gradient(white, gray);
-  @include grid;
-
-  .event {
-    border: 0;
-    padding: 40px;
-  }
-
-  .content {
-    width: 90%;
-    max-width: 90%;
   }
 }
 

@@ -53,6 +53,6 @@ get '/terms' do
   erb :terms
 end
 
-get '/index2' do
-  erb :index2
+get '/index' do
+  erb :index
 end

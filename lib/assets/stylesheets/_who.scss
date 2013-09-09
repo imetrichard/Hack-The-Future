@@ -1,8 +1,45 @@
 #who {
   min-height: 861px;
   height: 861px;
+  background-color: #2d2d2d;
+  @include grid;
+
+  header {
+    height: 861px;
+    //background: url('../images/hero_2.jpg') no-repeat center center;
+    background-size: cover;
+    width: contain;
+    margin-right: auto;
+    margin-left: auto;
+
+    h1 {
+      padding: 30px;
+      background-color: $pred;
+      color: #fff;
+      line-height: 42px;
+      width: 90%;
+      max-width: 600px;
+      text-shadow: 1px 1px 1px #464646;
+      left: 57%;
+      position: relative;
+      top: 60%;
+      @include grid;
+    }
+  }
+}
+
+#who-more {
+  min-height: 861px;
+  height: 861px;
   background-color: $pred;
   padding: 20px;
-  border-bottom: 68px solid $red;
-  @include grid;
+  padding-top: 300px;
+  //@include grid;
+
+  .content {
+    background-color: rgba(255, 120, 19, 0.0);
+    @include grid;
+    color: white;
+    text-shadow: 1px 1px 1px #838383;
+  }
 }

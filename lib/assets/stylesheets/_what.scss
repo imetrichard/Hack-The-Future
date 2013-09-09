@@ -2,13 +2,13 @@
   min-height: 861px;
   height: 861px;
   background-color: $pblue;
-  //padding: 20px;
-  border-bottom: 68px solid rgba(79, 159, 171, 1);
+  background-color: #2d2d2d;
+  border-bottom: 68px solid $pgreen;
   @include grid;
 
   header {
     height: 861px;
-    background: url('../images/hero_1.jpg') no-repeat center center;
+    background: url('../images/hero_4.jpg') no-repeat center center;
     background-size: cover;
     width: contain;
     margin-right: auto;
@@ -16,7 +16,7 @@
 
     h1 {
       padding: 30px;
-      background-color: rgba(79, 159, 171, .7);
+      //background-color: rgba(79, 159, 171, .7);
       color: #fff;
       line-height: 42px;
       width: 90%;
