@@ -8,27 +8,30 @@
 
 <div id="next">
   <div class="content">
-    <div class="event">
-      <h1>
-        Next Hack The Future
-      </h1>
-      <h2>> San Jose Tech Museum</h2>
-      <h2>> Saturday, August 24th</h2>
-      <h2>> 10am - 5pm</h2>
 
-      <fieldset>
-        <label>
-          <h2>
-            Enter Email For Updates <span class="blink"></span>
-          </h2>
-        </label>
-        <!--Use Jquery-->
-        <input id="email" type="text" value="Enter Your Email" onfocus="document.getElementsByClassName('blink')[0].style.display='none'; (this.value == 'Enter Your Email') && (this.value = '')"
-               onblur="(this.value == '') && (this.value = 'Enter Your Email')" >
-      </fieldset>
-    </div>
+    <h1>
+      Another Header
+    </h1>
+    <h2>Something yadda yadda</h2>
+    <h2>Something etc etc</h2>
 
-    <!--<img src="../images/robot.svg">-->
+    <h1>
+      Next Hack The Future
+    </h1>
+    <h2>> San Jose Tech Museum</h2>
+    <h2>> Saturday, August 24th</h2>
+    <h2>> 10am - 5pm</h2>
+
+    <fieldset>
+      <label class="email-list">
+        <h2>
+          Enter Email For Updates <span class="blink"></span>
+        </h2>
+      </label>
+      <!--Refactor to use Jquery-->
+      <input id="email" class="email-list-input" type="text" value="Enter Your Email" onfocus="document.getElementsByClassName('blink')[0].style.display='none'; (this.value == 'Enter Your Email') && (this.value = '')"
+             onblur="(this.value == '') && (this.value = 'Enter Your Email')" >
+    </fieldset>
 
   </div>
 </div>

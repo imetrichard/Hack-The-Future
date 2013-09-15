@@ -1,22 +1,28 @@
 #what {
-  min-height: 861px;
-  height: 861px;
+  min-height: 870px;
+  height: 870px;
   background-color: $pblue;
   background-color: #2d2d2d;
   border-bottom: 68px solid $pgreen;
-  @include grid;
+  z-index: -99;
+  margin-left: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: table;
+  width: 100%;
+  height: 100%;
 
   header {
     height: 861px;
-    background: url('../images/hero_4.jpg') no-repeat center center;
+    background: url('../images/hero_6.jpg') no-repeat center center;
     background-size: cover;
     width: contain;
     margin-right: auto;
-    margin-left: auto;
 
     h1 {
       padding: 30px;
-      //background-color: rgba(79, 159, 171, .7);
+      background-color: $pgreen;
       color: #fff;
       line-height: 42px;
       width: 90%;
@@ -26,6 +32,7 @@
       position: relative;
       top: 12%;
       @include grid;
+      z-index: 10;
     }
   }
 }

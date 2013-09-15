@@ -109,13 +109,18 @@ perspective effects (not including the modals and the overlay).
 
 .md-content button {
   margin: 0 auto;
-  font-size: 1em;
-  width: 350px;
+  margin-left: 125px;
+  width: 360px;
+  font-weight: 300;
+  font-size: 1.25em;
 }
 
 .md-close {
   color: #d3d3d3;
   font-size: 16px;
+  position: relative;
+  left: 173px;
+  text-decoration: none;
 }
 
 .md-effect-11 .md-content {
